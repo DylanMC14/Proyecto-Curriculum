@@ -1,0 +1,189 @@
+
+#masterbox {
+    display: flex;
+}
+
+/*-----------------------------SIDE BAR-----------------------------*/
+
+.leftpage { 
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height:20% ;
+}
+
+/*---------------------- IMAGE ----------------------*/
+
+.image {
+ background-color: black;
+ padding-left: 30px;
+ padding-top: 30px;
+}
+
+/*---------------------- INFORMATION ----------------------*/
+
+.information {
+   background-color: blue;
+}
+
+/*---------------------- CONTACT ----------------------*/
+
+.contact {
+    text-indent: 40px;
+    background-color: red;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#Thecontact { 
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+#telnumber {
+    display: flex;
+    flex-direction: row-reverse;
+    letter-spacing: 2px;
+    padding-right: 50px;
+}
+
+#phone {
+    padding-top: 15px;
+   
+}
+
+/*---------------------- SKILLS ----------------------*/
+
+.skills {
+    background-color: green;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#skills2 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+/*---------------------- APPEARANCES ----------------------*/
+
+.appearances {
+    background-color: yellow;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#Apariciones {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+/*---------------------- LANGUAGES ----------------------*/
+
+.languages {
+    padding-left: 30px;
+    background-color: violet;
+    /* height: 250px; */
+    padding-bottom: 370px;
+}
+
+#idioma {
+    font-size: 20px;
+}
+
+/*-----------------------------------------------------------------*/
+
+
+/*-----------------------------MAIN-----------------------------*/
+
+
+/*---------------------- CONTENT ----------------------*/
+
+.content{ 
+    padding-top: 52px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*---------------------- SUMMARY ----------------------*/
+
+.summary {
+    
+    background-color: brown;
+    padding-left: 30px;
+}
+
+#nombre {
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 7px;
+}
+
+#rprofesional {
+    font-size: 25px;
+}
+
+/*---------------------- EXPERIENCE ----------------------*/
+
+.experience {
+    background-color: cyan;
+    padding-left: 30px;
+}
+.line {
+    background-color: black;
+    height: 2px;
+    width: 80%;
+    margin-right: 170px;
+}
+
+#exp {
+    font-size: 25px;
+}
+
+#one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gold;
+}
+
+#fecha1 {
+    background-color: darkcyan;
+}
+
+#two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: greenyellow;
+}
+
+#fecha2 {
+    background-color: indigo;
+}
+
+#three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: mediumspringgreen;
+}
+
+#fecha3 {
+    background-color: purple;
+}
+
+/*---------------------- TRAINING ----------------------*/
+
+.training {
+    background-color: deeppink;
+    padding-left: 30px;
+    padding-bottom: 275px;
+}
+
+#formation {
+    font-size: 25px;
+}
+
+/*-----------------------------------------------------------------*/
