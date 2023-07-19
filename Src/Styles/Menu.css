@@ -9,7 +9,7 @@ padding-bottom: 200px;
 .menuc{
     display: flex;
     justify-content: center;
-    /* padding-bottom: 50px; */
+    padding-bottom: 50px;
 }
 
 .btn {
