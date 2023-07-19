@@ -1,0 +1,82 @@
+.fondo {background-image:url("https://i.pinimg.com/originals/80/79/f3/8079f35bd622625b4db763edfce6d026.gif");
+background-repeat: no-repeat;
+background-position: center;
+background-size:151%;
+margin-top: 250px;
+padding-bottom: 200px;
+}
+
+.menuc{
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 50px; */
+}
+
+.btn {
+color: black;
+font-size: 40px;
+text-shadow: 2px 2px white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: violet;
+    text-shadow: 2px 2px cyan;
+} 
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    text-shadow: 1px 1px violet;
+}
+
+a:visited {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+    color:black;
+    background-color: transparent;
+    text-decoration: underline;
+    text-shadow: 1px 1px cyan;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+.curri-1{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.curri-1:hover {
+    background-color: rgba(0, 255, 255, 0.605);
+}
+
+.curri-2{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.curri-2:hover {
+    background-color: rgba(238, 130, 238, 0.605);
+}
+
+.curri-3{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.curri-3:hover {
+    background-color: rgba(0, 255, 255, 0.605);
+}
