@@ -42,7 +42,7 @@ ul {
   padding-left: 15px;
 }
 
-.jobsBoxes {
+.UDBoxes {
   display: flex;
 }
 
@@ -53,5 +53,5 @@ ul {
 
 .MTB5 {
   margin-top: 5px;
- margin-bottom: 5px;
+  margin-bottom: 5px;
 }
