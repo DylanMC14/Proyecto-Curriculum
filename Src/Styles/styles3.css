@@ -13,21 +13,34 @@ h5{
     background-color: whitesmoke;
     /* display: inline-block; */
 }
+
+
 /* Header */
-.header{
+.header-container{
+    height: 80px;
+    width: 100%;
+    display:flex;
+    /* position: relative; */
+
     
+}
+
+.header{    
+    position: relative;
+    z-index: 1;
+    /* right: 100px; */
     background-color: whitesmoke;
-    
     width: 775px;
     height: 75px;
     display: flex;
     /* margin: 0px;   */
-    padding: 10px 7px 10px 12px;  
+    padding: 5px 7px 10px 12px;  
     /* border: 2px solid; */
     /* position:sticky ; */
 
 }
 .header>.image{
+    /* z-index: ; */
     width: 200px;
     height: 75px;
     /* background-color: blue; */
@@ -53,10 +66,18 @@ h5{
 
 /* .inner-container is inner left and right' father */
 .inner-container{
+    /* position: relative; */
+    margin-top: 10px;
     display: flex;
+    /* flex-direction: column; */
+    height: 1000px;
+    /* width: 1000px; */
+    
 }
 /* inner left */
 .inner-left{
+    /* position: relative;
+    right: 800px; */
     width: 35%;
     height: 925px;
     background-color:peachpuff;
@@ -66,6 +87,7 @@ h5{
     /* margin-right: 0px; */
     /* margin-left: 20px ; */
     padding-left: 12px ;
+    /* padding: 80px 0 0 12px ; */
 }
 
 .details-title{
@@ -102,18 +124,36 @@ h5{
     height: 125px;
     /* background-color: yellowgreen; */
 }
-.habilities>.flex-container{
+.habilities>.flex-container,.idioms>.flex-container{
     display: flex;
     height: 40px;
 }
-.habilities>.flex-container>p{
-    width: 60%;
+.habilities>.flex-container>p,.idioms>.flex-container>p{
+    width: 55%;
+    height: 20px;
+    margin: 12px 0;
 
 }
-.habilities>.flex-container>.progress-bar{
-    width: 40%;
-}
 
+/* Progress Bar ---------------------------------- */
+.progress-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.rounded-circle{
+    margin: 0 2px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    border-radius: 80%;
+    background-color: aqua;
+}
+.filled{
+    background-color: black;
+}
+/* Progress Bar ---------------------------------- */
 .idioms-title{
     margin-top: 20px;
     width: 100%;
@@ -130,10 +170,14 @@ h5{
 
 /* inner right */
 .inner-right{
+    /* position: relative;
+    right: 800px; */
+    /* top: 50px; */
     width: 65%;
     height: 925px;
     background-color:whitesmoke;
-    padding-left: 10px;
+    /* padding: 80px 0 0 10px; */
+    padding-left: 12px;
     /* padding-right: 5px; */
 }
 .personal-description{
@@ -266,4 +310,11 @@ flex-direction: row-reverse;
 .courses-title,.education-title{
     margin-top: 3px;
 }
-
+/* 
+.prueba{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    right: 00px;
+} */
