@@ -16,6 +16,7 @@ const filledCirclesCount = Math.round(percentageDecimal * totalCircles); //3
 
 
 //[oooooo]
+
 for (let i = 0; i < circles.length; i++) {
     // Si el índice (i) es menor que el número de círculos llenos, agregar la clase 'filled'
     if (i < filledCirclesCount) {
@@ -26,8 +27,9 @@ for (let i = 0; i < circles.length; i++) {
     }
 }
 
-function addCircles(percentage,circles){
-    const f = Math.round((percentage/100)*circles.length)
+function addCircle(percentageDecimal,totalCircles) {
+    
+    const f = Math.round(percentageDecimal * totalCircles); //3
     for (let i = 0; i < circles.length; i++) {
         // Si el índice (i) es menor que el número de círculos llenos, agregar la clase 'filled'
         if (i < f) {
@@ -39,5 +41,47 @@ function addCircles(percentage,circles){
     }
 }
 
-    const parent = document.querySelector('progress-bar')
-    parent.append(circles);
+mediumPorcentaje = 50 /100
+lowPorcentaje = 30/100
+highPorcentaje= 85/100
+
+addCircle(lowPorcentaje,totalCircles);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const parent = document.querySelector('progress-bar')
+// parent.append(circles);
+
+
+// function addCircles(percentage,circles){
+//     const f = Math.round((percentage/100)*circles.length)
+//     for (let i = 0; i < circles.length; i++) {
+//         // Si el índice (i) es menor que el número de círculos llenos, agregar la clase 'filled'
+//         if (i < f) {
+//             circles[i].classList.add('filled');
+//         } else {
+//             // Si el índice (i) es mayor o igual al número de círculos llenos, quitar la clase 'filled'
+//             circles[i].classList.remove('filled');
+//         }
+//     }
+// }
