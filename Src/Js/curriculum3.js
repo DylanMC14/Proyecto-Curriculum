@@ -1,4 +1,4 @@
-import { mark } from "./events";
+//import { mark } from "./events";
 // Obtener todos los elementos con la clase 'circle'
 const circles = document.querySelectorAll('.rounded-circle'); //[circles]
 let data = []
@@ -15,7 +15,7 @@ if (circles.length % 5 !== 0) {
     alert("Cantidad de bolitas no es divisible por 5");
 }
 for (let i = 0; i <= circles.length; i++) {
-    circles[i].addEventListener('click',mark)
+    console.log(circles[i])
     if (i % 5 == 0 && i !== 0) {
         fullData.push([data, puntuacion[(i / 5)-1]])
         data = []
@@ -67,9 +67,9 @@ function addCircle(percentageDecimal, totalCircles) {
     }
 }
 
-highPorcentaje = 85 / 100
-mediumPorcentaje = 50 / 100
-lowPorcentaje = 30 / 100
+// highPorcentaje = 85 / 100
+// mediumPorcentaje = 50 / 100
+// lowPorcentaje = 30 / 100
 addCircle_eduardo(fullData)
 //addCircle(highPorcentaje,totalCircles);
 

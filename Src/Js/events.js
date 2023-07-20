@@ -1,4 +1,4 @@
-function mark(){
-    console.log("si entro")
+function mark(x){
+    console.log(x)
 }
 export {mark};
