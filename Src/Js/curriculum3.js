@@ -1,3 +1,4 @@
+import { mark } from "./events";
 // Obtener todos los elementos con la clase 'circle'
 const circles = document.querySelectorAll('.rounded-circle'); //[circles]
 let data = []
@@ -7,20 +8,21 @@ let puntuacion = [
     2,
     3,
     4,
-    2,
-    3,
-    4
+    5,
+    5
 ]
 if (circles.length % 5 !== 0) {
     alert("Cantidad de bolitas no es divisible por 5");
 }
 for (let i = 0; i <= circles.length; i++) {
+    circles[i].addEventListener('click',mark)
     if (i % 5 == 0 && i !== 0) {
-        fullData.push([data, puntuacion[i / 5]])
+        fullData.push([data, puntuacion[(i / 5)-1]])
         data = []
     }
     data.push(circles[i])
 }
+console.log(fullData)
 
 const nums = 0;
 // Porcentaje de progreso (cambiar este valor para ajustar el progreso)
@@ -42,10 +44,8 @@ function addCircle_eduardo(data) {
     data.forEach(vector => {
         for (let j = 0; j < vector[1]; j++) {
             for (let i = 0; i < vector[0].length; i++) {
-                if (i>=j) {
+                if (i<=j) {
                     vector[0][i].classList.add('filled')
-                }else{
-                    vector[0][i].classList.remove('filled')
                 }
                 
             }
