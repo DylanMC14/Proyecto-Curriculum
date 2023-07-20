@@ -1,3 +1,5 @@
+/* <!-----------------------------------\/-----------------------------------------\/-----------------------------------> */
+
 .fondo {background-image:url("https://i.pinimg.com/originals/80/79/f3/8079f35bd622625b4db763edfce6d026.gif");
 background-repeat: no-repeat;
 background-position: center;
@@ -6,11 +8,15 @@ margin-top: 250px;
 padding-bottom: 200px;
 }
 
+/* <!----------------------------------------- Menú -----------------------------------------> */
+
 .menuc{
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
 }
+
+/* <!----------------------------------------- Boton -----------------------------------------> */
 
 .btn {
 color: black;
@@ -22,7 +28,10 @@ text-shadow: 2px 2px white;
     cursor: pointer;
     color: violet;
     text-shadow: 2px 2px cyan;
+    background-color: rgba(255, 255, 255, 0.659)
 } 
+
+/* <!----------------------------------------- Boton de Menú -----------------------------------------> */
 
 .dropdown-menu {
     background-color: rgba(0, 0, 0, 0);
@@ -54,29 +63,48 @@ a:active {
     text-decoration: underline;
 }
 
-
-
+/* <!----------------------------------------- Boton de C1 -----------------------------------------> */
 
 .curri-1{
     background-color: rgba(0, 0, 0, 0);
 }
 
 .curri-1:hover {
-    background-color: rgba(0, 255, 255, 0.605);
+    background-color: rgba(255, 255, 255, 0.659)
 }
+
+/* <!----------------------------------------- Boton de C2 -----------------------------------------> */
 
 .curri-2{
     background-color: rgba(0, 0, 0, 0);
 }
 
 .curri-2:hover {
-    background-color: rgba(238, 130, 238, 0.605);
+    background-color: rgba(255, 255, 255, 0.659)
 }
+
+/* <!----------------------------------------- Boton de C3 -----------------------------------------> */
 
 .curri-3{
     background-color: rgba(0, 0, 0, 0);
 }
 
 .curri-3:hover {
-    background-color: rgba(0, 255, 255, 0.605);
+    background-color: rgba(255, 255, 255, 0.659)
 }
+
+/* <!----------------------------------------- Alerta -----------------------------------------> */
+
+.alerta {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border: 6px inset rgb(189, 9, 9);
+    background-image:url("https://img.freepik.com/vector-premium/fondo-advertencia-vector-blanco-cinta-precaucion-peligro-espacio-senal-peligro-atencion-rayas_390775-853.jpg?w=2000");
+    background-position: center;
+}
+
+/* <!-----------------------------------/\-----------------------------------------/\-----------------------------------> */
