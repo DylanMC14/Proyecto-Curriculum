@@ -1,3 +1,7 @@
+// -----------------------------------\/-----------------------------------------\/-----------------------------------\\
+
+// --------------------------------------- Reproduccion de música --------------------------------------- \\
+
 const playSound = function() {
     let element = document.createElement('div');
     element.innerHTML = `
@@ -9,3 +13,5 @@ const playSound = function() {
     document.removeEventListener('click', playSound);
 }
 document.addEventListener('click', playSound);
+
+// -----------------------------------/-----------------------------------------\-----------------------------------\\
