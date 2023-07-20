@@ -1,6 +1,5 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
 }
 
 #image {
@@ -55,4 +54,17 @@ ul {
 .MTB5 {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+#Curriculum {
+  display: flex;
+  flex-direction: column;
+  width: 677px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url(/Images/giphy.gif);
+  background-size: 88px;
 }
