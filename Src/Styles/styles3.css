@@ -14,7 +14,6 @@ h5{
     /* display: inline-block; */
 }
 
-
 /* Header ----------------------------------------------- */
 .header-container{
     height: 80px;
@@ -52,7 +51,7 @@ h5{
     align-items: center;
     border: 2px solid ;
     border-right: none;
-    /* background-image: url("https://c2.staticflickr.com/9/8047/28585216193_6d97d015fa_z.jpg"); */
+    background-image: url("https://c2.staticflickr.com/9/8047/28585216193_6d97d015fa_z.jpg");
     background-size:cover ;
     background-position: center;
 }
