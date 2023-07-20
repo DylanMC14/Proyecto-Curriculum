@@ -9,19 +9,18 @@ h5{
 .container{
     margin: 20px auto;
     width: 800px;
-    height: 925px;
+    height: 1026px;
     background-color: whitesmoke;
     /* display: inline-block; */
 }
 
 
-/* Header */
+/* Header ----------------------------------------------- */
 .header-container{
     height: 80px;
     width: 100%;
     display:flex;
     /* position: relative; */
-
     
 }
 
@@ -31,15 +30,18 @@ h5{
     z-index: 1;
     /* right: 100px; */
     background-color: whitesmoke;
-    width: 700px;
+    /* padding: 0 0 0px 15px; */
+    margin-left: 15px;
+    width: 770px;
     height: 75px;
     display: flex; 
     /* margin: 0px;   */
     /* padding: 5px 7px 10px 12px;   */
     /* border: 2px solid; */
     /* position:sticky ; */
-
+    
 }
+/* image box */
 .header>.image{
     /* z-index: ; */
     width: 200px;
@@ -50,6 +52,9 @@ h5{
     align-items: center;
     border: 2px solid ;
     border-right: none;
+    /* background-image: url("https://c2.staticflickr.com/9/8047/28585216193_6d97d015fa_z.jpg"); */
+    background-size:cover ;
+    background-position: center;
 }
 .header>.name{
     width: 700px;
@@ -63,12 +68,15 @@ h5{
     border: 2px solid ;
     border-left: none;
 }
-/* Header */
+
+/* Header ----------------------------------------------- */
+
 
 /* .inner-container is inner left and right' father */
 .inner-container{
     /* position: relative; */
     margin-top: 10px;
+    /* padding-top: 90px; */
     display: flex;
     /* flex-direction: column; */
     height: 900px;
@@ -87,7 +95,8 @@ h5{
     /* align-items: center; */
     /* margin-right: 0px; */
     /* margin-left: 20px ; */
-    padding-left: 12px ;
+    padding-left: 15px ;
+    padding-top: 100px;
     /* padding: 80px 0 0 12px ; */
 }
 
@@ -155,6 +164,7 @@ h5{
     background-color: black;
 }
 /* Progress Bar ---------------------------------- */
+
 .idioms-title{
     margin-top: 20px;
     width: 100%;
@@ -169,6 +179,7 @@ h5{
 /* inner left */
 
 
+
 /* inner right */
 .inner-right{
     /* position: relative;
@@ -179,13 +190,14 @@ h5{
     background-color:whitesmoke;
     /* padding: 80px 0 0 10px; */
     padding-left: 12px;
+    padding-top: 100px;
     /* padding-right: 5px; */
 }
 .personal-description{
     width: 95%;
     height: 80px;
     font-size:medium;
-    padding-top: 15px;
+    padding-top: 10px;
     /* background-color: aqua; */
     border-bottom: 1px solid;
     margin-bottom: 10px;
